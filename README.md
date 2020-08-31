@@ -18,7 +18,7 @@ KNOWEN_SITE_INDEL = BASE_DIR + "/ref/Mills_and_1000G_gold_standard.indels.b37.vc
 GATK3 = "/path/to/wes/software/GenomeAnalysisTK.jar"
 PICARD = "/path/to/wes/software/picard.jar"
 ```
-There is a configuration ```yaml``` file in this directory that could be of help in making same virtual environment in ```python```.
+There is a configuration ```yaml``` file in this directory that could be of help in making same virtual environment in ```python```to what I had configured, ```wes```. By ```conda``` you can make same ```python```environment to ```wes```. 
  ### Pipeline steps
  This pipeline consisted of several steps:
  * QC by [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
