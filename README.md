@@ -31,5 +31,5 @@ There is a configuration ```yaml``` file in this directory that could be of help
  
 
  *fnal note:*
- In the repositiry there is a ```snakefile``` file. The content of this file is copied in ```snakefile.sh``` for inspection propose, hwoever for pipeline running ```snakefile``` should be downloaded and located in your ```wes``` directory. 
+ In the repositiry there is a ```Snakefile``` file. The content of this file is copied in ```Snakefile.sh``` for inspection propose, hwoever for pipeline running ```Snakefile``` should be downloaded and located in your ```wes``` directory. 
  
