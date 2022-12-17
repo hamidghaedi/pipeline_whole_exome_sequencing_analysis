@@ -5,7 +5,7 @@ This code/pipeline was written by me in 2018-2019 while working in the [RayaGen 
 >The Snakemake workflow management system is a tool to create reproducible and scalable data analyses. Workflows are described via a human readable, Python based language. They can be seamlessly scaled to server, cluster, grid and cloud environments, without the need to modify the workflow definition. Finally, Snakemake workflows can entail a description of required software, which will be automatically deployed to any execution environment.
 For full documentation and installation please refer to the original [website](https://snakemake.readthedocs.io/en/stable/).
 
-In this workflow, several address and path was defined in the ```snakefile```:
+In this workflow, several addresses and paths were defined in the ```snakefile```:
 ```shell
 SAMPLES, = glob_wildcards("raw/{sample}_1.fastq.gz") # your file should be in a folder in this way: "/wes/raw"
 READS=["1", "2"]
